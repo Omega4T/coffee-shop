@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 const Footer = () => {
   // Fungsi untuk smooth scroll ke section tertentu

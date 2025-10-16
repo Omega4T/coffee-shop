@@ -1,7 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { useScroll, useTransform, motion, MotionValue } from 'framer-motion';
+import { useScroll, useTransform, motion } from 'framer-motion';
 
 export const ParallaxSection = ({ children, offset }: { children: React.ReactNode; offset: number }) => {
   const { scrollYProgress } = useScroll();

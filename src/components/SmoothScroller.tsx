@@ -1,7 +1,5 @@
 'use client';
 
-import Lenis from '@studio-freight/lenis';
-
 const SmoothScroller = () => {
   const scrollToTop = () => {
     // Fungsi untuk scroll ke atas dengan animasi yang lembut
